@@ -6,7 +6,6 @@ import { MatFormField, MatLabel } from '@angular/material/form-field';
   selector: 'app-create-edit-user',
   templateUrl: './create-edit-user.component.html',
   styleUrl: './create-edit-user.component.css',
-  
 })
 export class CreateEditUserComponent {
   constructor() {}

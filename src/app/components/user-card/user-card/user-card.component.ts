@@ -5,7 +5,6 @@ import { User } from '../../../services/userService/user-service.service';
   selector: 'app-user-card',
   templateUrl: './user-card.component.html',
   styleUrl: './user-card.component.css',
-  standalone: true
 })
 export class UserCardComponent {
 @Input({required: true}) user!: User;

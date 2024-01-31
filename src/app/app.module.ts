@@ -26,8 +26,8 @@ import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     AppComponent,
-    UserCardComponent,
     CreateEditUserComponent,
+    UserCardComponent,
     UsersListComponent,
   ],
   imports: [
@@ -38,7 +38,6 @@ import { RouterModule } from '@angular/router';
     MatDialogModule,
     MatFormFieldModule,
     ReactiveFormsModule,
-    FormControl,
     FormsModule,
     MatInputModule,
     MatIconModule,

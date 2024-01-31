@@ -8,10 +8,14 @@ import { MatDialog, MatDialogActions } from '@angular/material/dialog';
 import { CreateEditUserComponent } from '../create-edit-user/create-edit-user.component';
 import { UserCardComponent } from '../user-card/user-card/user-card.component';
 
+
+
 @Component({
   selector: 'app-users-list',
   templateUrl: './users-list.component.html',
   styleUrl: './users-list.component.css',
+  standalone: true,
+  imports: [MatDialogActions, UserCardComponent]
 })
 export class UsersListComponent {
   constructor(
